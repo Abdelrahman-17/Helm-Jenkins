@@ -35,6 +35,14 @@ kubectl exec --namespace default -it svc/[RELEASE_NAME] -c jenkins -- /bin/cat /
 http://127.0.0.1:8010
 ```
 
+## To Run Direct
+```
+https://github.com/Abdelrahman-17/Helm-Jenkins.git
+cd Helm-Jenkins
+./jenkins_deploy_helm.sh
+
+```
+
 ## Uninstall Chart
 ```
 helm uninstall [RELEASE_NAME]
